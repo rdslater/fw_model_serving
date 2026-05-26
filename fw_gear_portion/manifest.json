@@ -1,19 +1,40 @@
 {
-  "license": "MIT",
-  "source" : "none",
-  "url" : "mygithub.com",
-  "name": "dummy-gear",
-  "label": "Dummy Gear",
-  "description": "Simple test gear",
-  "author": "me",
+  "name": "modelservephaseone",
+  "label": "mark",
+  "description": "dummy gear that comminicates externally",
   "version": "0.0.1",
+  "author": "rdslater@gmail.com",
+  "maintainer": "rdslater@gmail.com",
+  "cite": "",
+  "license": "MIT",
+  "url": "https://github.com/rdslater/fw_model_serving",
+  "source": "https://github.com/rdslater/fw_model_serving/README.md",
+  "environment": {
+    "FLYWHEEL": "/flywheel/v0",
+    "GPG_KEY": "A035C8C19219BA821ECEA86B64E628F8D684696D",
+    "LANG": "C.UTF-8",
+    "MYENV": "",
+    "PATH": "/usr/local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin",
+    "PWD": "/flywheel/v0",
+    "PYTHON_SHA256": "de6517421601e39a9a3bc3e1bc4c7b2f239297423ee05e282598c83ec0647505",
+    "PYTHON_VERSION": "3.10.20"
+  },
   "custom": {
     "gear-builder": {
-      "category": "analysis",
-      "image": "remote"
+      "category": "utility",
+      "image": "docker/phase1:0.0.1"
+    },
+    "flywheel": {
+      "suite": "DEV"
     }
   },
-  "command": "python /flywheel/v0/phase1_run.py",
-  "inputs": {},
-  "config": {}
+  "inputs": {
+    "input_file": {
+      "description": "dummy file. Can be anything",
+      "base": "file",
+      "type": {}
+    }
+  },
+  "config": {},
+  "command": "python3 phase1_run.py"
 }
