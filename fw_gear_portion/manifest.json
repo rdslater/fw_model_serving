@@ -1,0 +1,19 @@
+{
+  "license": "MIT",
+  "source" : "none",
+  "url" : "mygithub.com",
+  "name": "dummy-gear",
+  "label": "Dummy Gear",
+  "description": "Simple test gear",
+  "author": "me",
+  "version": "0.0.1",
+  "custom": {
+    "gear-builder": {
+      "category": "analysis",
+      "image": "remote"
+    }
+  },
+  "command": "python /flywheel/v0/phase1_run.py",
+  "inputs": {},
+  "config": {}
+}
