@@ -10,4 +10,4 @@ def read_status():
 if __name__ == "__main__":
     import uvicorn
     # Run on 0.0.0.0 so it listens on all network interfaces
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    uvicorn.run(app, host="0.0.0.0", port=8008)

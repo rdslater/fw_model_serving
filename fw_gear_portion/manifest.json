@@ -2,7 +2,7 @@
   "name": "modelservephaseone",
   "label": "mark",
   "description": "dummy gear that comminicates externally",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "author": "rdslater@gmail.com",
   "maintainer": "rdslater@gmail.com",
   "cite": "",
@@ -22,7 +22,7 @@
   "custom": {
     "gear-builder": {
       "category": "utility",
-      "image": "docker/phase1:0.0.1"
+      "image": "docker/phase1:0.0.2"
     },
     "flywheel": {
       "suite": "DEV"

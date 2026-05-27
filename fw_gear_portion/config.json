@@ -8,7 +8,7 @@
                 "path": "/flywheel/v0/input/input_file/dummy.txt"
             },
             "object": {
-                "size": 0,
+                "size": 59,
                 "type": null,
                 "mimetype": "application/octet-stream",
                 "modality": null,

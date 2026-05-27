@@ -13,7 +13,7 @@ def main():
 
     # Target your local machine from inside Docker
     # Note: If testing on Linux, you might need http://172.17.0.1:8000 instead
-    url = "http://host.docker.internal:8000/status"
+    url = "https://dugout-conceded-congress.ngrok-free.dev/status"
     
     try:
         print(f"[INFO] Sending request to {url}...")
